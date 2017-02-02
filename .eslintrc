@@ -1,0 +1,30 @@
+{
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "settings": {
+    "ecmascript": 6
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "mocha": true
+  },
+  "rules": {
+    "no-unused-vars": 1,
+    "no-trailing-spaces": 1,
+    "semi": 1,
+    "strict": 0,
+    "indent": [2, 2],
+    "quotes": [1, "single"],
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true,
+        "FunctionExpression": true
+      }
+    }],
+    "key-spacing": [0, {"align": "value"}],
+    "no-underscore-dangle": 0
+  }
+}
